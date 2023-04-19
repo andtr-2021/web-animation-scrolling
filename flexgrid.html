@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      .wrapper {
+        width: 500px;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: aqua;
+      }
+
+      .wrapper > div {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        margin: 10px;
+      }
+      .wrapper > div {
+        flex: 1 1 150px;
+      }
+
+      .wrapper2 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+      }
+
+      .wrapper2 > div {
+        background-color: blueviolet;
+        margin: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div>One</div>
+      <div>Two</div>
+      <div>Three</div>
+      <div>Four</div>
+      <div>Five</div>
+    </div>
+
+    <div class="wrapper2">
+      <div>One</div>
+      <div>Two</div>
+      <div>Three</div>
+      <div>Four</div>
+      <div>Five</div>
+    </div>
+
+    <a
+      href="https://www.google.com/search?q=dog&sxsrf=APwXEdeGRXd_BD2yfWh4DajgBISJTt9iuw:1681027277313&tbm=isch&source=iu&ictx=1&vet=1&fir=NN1-QGCky_XgzM%252CvL0suvKfyYaqHM%252C%252Fm%252F0bt9lr%253BN06KnEROTNm0RM%252CzWUzl6F1QeMfZM%252C_%253BJ3OYaw1FSTT6aM%252Cg1AgL3Vo2WkOfM%252C_%253B9Zv98XrDcfYCXM%252CFofFudZ0yWjNIM%252C_%253BabY4n6OQTiG9mM%252CpsoD_GDNumd-nM%252C_&usg=AI4_-kTFt_W_Ww0DWyaWUFrY6dZeVot6dg&sa=X&ved=2ahUKEwj2-eLNqpz-AhUIBN4KHQdqCdYQ_B16BAh0EAE#imgrc=NN1-QGCky_XgzM"
+      >This is dog</a
+    >
+  </body>
+</html>
